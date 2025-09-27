@@ -44,7 +44,7 @@ D: High-level depends on abstraction, not concrete APIs.
 
 Authentication → Simple login.
 
-Browse → Infinite scroll + pull-to-refresh product feed.
+Browse → Infinite scroll When Scroll Down Load More + pull-to-refresh product feed.
 
 Search → Debounced keyword search.
 
