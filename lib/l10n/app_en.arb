@@ -1,0 +1,21 @@
+{
+  "pleaseFillData": "Please Fill Data",
+  "userName": "UserName",
+  "password": "Password",
+  "login": "Login",
+  "register": "Register",
+  "forgetYourPassword": "Forget your password",
+  "forgetPassword": "Forget password",
+  "doYouHaveAccount": "Do You Have Account",
+  "categories": "Categories",
+  "home": "Home",
+  "description": "Description",
+  "cart": "Favourite Cart",
+  "noData": "There is No Data Exist",
+  "totalPrice": "Total Price",
+  "addToCart": "Add To Cart",
+  "searchProduct": "Search Product ...",
+  "allProducts": "All Products",
+  "retry": "retry",
+  "send": "Send"
+}

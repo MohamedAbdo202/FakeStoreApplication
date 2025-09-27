@@ -1,0 +1,80 @@
+import 'package:flutter/material.dart';
+import 'package:pyramakerz/core/design_system/core/palette.dart';
+import 'package:pyramakerz/core/design_system/system/custom_color.dart';
+
+const customLightScheme = ColorScheme(
+  brightness: Brightness.light,
+  primary: Color(0xFFDB3022),
+  onPrimary: Color(0xFFFFFFFF),
+  primaryContainer: Palette.lime_90,
+  onPrimaryContainer: Palette.lime_10,
+  secondary: Color(0xFF006874),
+  onSecondary: Color(0xFF022D4D),
+  secondaryContainer: Colors.green,
+  onSecondaryContainer: Color(0xFF001F24),
+  tertiary: Color(0xFF3A665D),
+  onTertiary: Color(0xFFFFFFFF),
+  tertiaryContainer: Color(0xFFBDECE0),
+  onTertiaryContainer: Palette.neutral_0,
+  error: Palette.red_50,
+  errorContainer: Palette.red_30,
+  onError: Palette.red_100,
+  onErrorContainer: Palette.red_20,
+  surface: Palette.neutral_99,
+  onSurface: Colors.black,
+  surfaceContainerHighest: Palette.neutral_70,
+  onSurfaceVariant: Palette.neutral_50,
+  outline: Palette.neutral_80,
+  onInverseSurface: Color(0xFFD6F6FF),
+  inverseSurface: Color(0xFF00363F),
+  inversePrimary: Palette.yellow_50,
+  background: Palette.neutral_99,
+  shadow: Color(0xFF000000),
+  surfaceTint: Color(0xFF9B9B9B),
+  outlineVariant: Color(0xFFC7C8B8),
+  scrim: Color(0xFF000000),
+);
+
+var customDarkScheme = ColorScheme(
+  brightness: Brightness.dark,
+  primary: const Color(0xFFDB3022),
+  onPrimary: const Color(0xFFFFFFFF),
+  primaryContainer: Palette.red_20,
+  onPrimaryContainer: Palette.lime_10,
+  secondary: const Color(0xFFFFFFFF),
+  onSecondary: const Color(0xFFFFFFFF),
+  secondaryContainer: Colors.green,
+  onSecondaryContainer: const Color(0xFFFFFFFF),
+  tertiary: const Color(0xFFFFFFFF),
+  onTertiary: const Color(0xFFFFFFFF),
+  tertiaryContainer: const Color(0xFFBDECE0),
+  onTertiaryContainer: Colors.white,
+  error: Colors.white,
+  errorContainer: Colors.white,
+  onError: Colors.white,
+  onErrorContainer: Colors.white,
+  background: Colors.white,
+  onBackground: Colors.white,
+  surface: const Color(0xFF303030),
+  onSurface: Colors.white,
+  surfaceVariant: Palette.neutral_100,
+  onSurfaceVariant: Colors.white,
+  outline: Palette.neutral_80,
+  onInverseSurface: const Color(0xFFD6F6FF),
+  inverseSurface: Palette.neutral_100,
+  inversePrimary: const Color(0xFFB3D400),
+  shadow: Colors.white,
+  surfaceTint: Colors.white,
+  outlineVariant: Colors.white,
+  scrim: const Color(0xFF000000),
+);
+// Define light & dark AppColors
+const lightAppColors = CustomColor(
+  success: Color(0xFF4CAF50),
+  failure: Color(0xFFF44336),
+);
+
+const darkAppColors = CustomColor(
+  success: Color(0xFF81C784),
+  failure: Color(0xFFE57373),
+);

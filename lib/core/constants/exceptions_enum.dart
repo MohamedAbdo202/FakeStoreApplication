@@ -1,0 +1,16 @@
+enum CustomStatusCodeErrorType {
+  init,
+  server,
+  internet,
+  gatWay,
+  redirection,
+  connectTimeout,
+  receiveTimeout,
+  sendTimeout,
+  badCertificate,
+  connectionError,
+  badRequest,
+  unExcepted,
+  unVerified,
+  notFound,
+}

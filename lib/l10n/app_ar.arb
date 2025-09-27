@@ -1,0 +1,21 @@
+{
+  "pleaseFillData": "برجاء ادخال البيانات",
+  "userName": "اسم المستخدم",
+  "password": "باسورد",
+  "login": "تسجيل دخول",
+  "register": "تسحيل",
+  "forgetPassword": "نسيت كلمة المرور",
+  "forgetYourPassword": "نسيت كلمة المرور الخاصه بك",
+  "categories": "الفئات",
+  "doYouHaveAccount": "هل لديك ايميل",
+  "home": "الرئيسية",
+  "description": "الوصف",
+  "cart": "السلة",
+  "noData": "لا يوجد بيانات",
+  "totalPrice": "السعر الكامل",
+  "addToCart": "اضافة الي السلة",
+  "searchProduct": "البحث عن منتج ",
+  "allProducts": "كل المنتجات",
+  "retry": "اعادة المحاولة",
+  "send": "ارسال"
+}
