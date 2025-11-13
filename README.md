@@ -1,4 +1,4 @@
-# pyramakerz
+# fakestore
 
 API choice → Fake Store API (https://fakestoreapi.com)
 
